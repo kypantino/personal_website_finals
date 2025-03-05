@@ -105,13 +105,11 @@
   </script>
   
   <style scoped>
-  
-  
   /* General Styles */
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
-    color: #f7e6f0;
+    color: #C4BAB3;
     margin: 0;
     padding: 0;
   }
@@ -121,7 +119,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: #640D14;
+    background: #52130C;
     padding: 10px 50px; 
     display: flex;
     justify-content: space-between;
@@ -145,10 +143,12 @@
   .sticky-header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    color: #f7e6f0;
+    color: #C4BAB3;
   }
   
   .nav-links {
+    color: #C4BAB3;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     gap: 20px; 
     align-items: center; 
@@ -157,7 +157,7 @@
   .nav-links a {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    color: #ffd3ed;
+    color: #C4BAB3;
     text-decoration: none;
     padding: 5px 10px; 
   }
@@ -169,31 +169,32 @@
   /* Home Section */
   .home {
     text-align: center;
+    color:#C4BAB3;
     padding: 40px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
     gap:40px; 
-    background: rgba(0, 0, 0, 0.5); 
+    background: #1E0702; 
     border-radius: 15px;
     margin: top 45px;
     margin-bottom: 45px;
   }
   
-  
-  
+
   .home-content {
     text-align: left; 
   }
   
   .home-content h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem; 
+    font-size: 4rem; 
     margin-bottom: 100px;
   }
   
   .home-content p {
-    font-size: 1.2rem; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem; 
     line-height: 1.6; 
     max-width: 600px; 
     margin: 0;
@@ -203,13 +204,13 @@
   /* About Me Section */
   .about-me {
     padding: 50px 150px; 
-    background: black
+    background: #1E0702;
   }
   
   .about-me h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    color: #FFE0E9;
+    color: #C4BAB3;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -234,12 +235,12 @@
   
   .about-text {
     font-family: 'Poppins', sans-serif;
-    color: #FFE0E9;
+    color: #C4BAB3;
     max-width: 600px;
   }
   
   .about-text h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
