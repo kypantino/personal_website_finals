@@ -1,7 +1,5 @@
 <template>
   <Personal-Profile/>
-  <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-</ul>
   <Comments/>
 </template>
 
@@ -22,9 +20,4 @@ onMounted(() => {
 })
 </script>
 
-<template>
-  <ul>
-    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
-  </ul>
-</template>
 <style></style>
