@@ -81,7 +81,8 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-      <h2>Contact Me!</h2>
+      <img src="./pics/Contact.svg" alt="Contact Icon" class="about-icon">
+      <h2>Socials</h2>
       <p>Email: <a href="mailto:kppantino@student.apc.edu.ph">kppantino@student.apc.edu.ph</a></p>
       <p>Facebook: <a href="https://www.facebook.com/kyla.pantino/">Kyla Pantino</a></p>
       <p>Instagram: <a href="https://www.instagram.com/kylapantino/">@kylapantino</a></p>
