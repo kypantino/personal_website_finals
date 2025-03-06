@@ -3,8 +3,8 @@
     <!-- Header -->
     <header class="sticky-header">
       <div class="header-content">
-        <h1>Kyla Amor's Portfolio</h1>
-      </div>
+    <img src="./pics/favicon.svg" alt="Kyla Amor's Portfolio Icon" class="header-icon">
+  </div>
       <nav class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About Me</a>
@@ -92,7 +92,7 @@
 
 <style scoped>
 /* General Styles */
-.body {
+.body-content {
   font-family: 'Poppins', sans-serif;
   background-color: #121212; /* Dark background */
   color: #EEDBBF; /* Your text color */
@@ -110,19 +110,34 @@
   background: #451616; /* Your header background color */
   padding: 15px 20px; /* Increase padding for more height */
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center content horizontally */
   align-items: center;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.45);
   z-index: 1000; /* Ensure it stays on top */
+  color: #EEDBBF; /* Light text color for better contrast */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  width: 50px; /* Adjust the size of the icon */
+  height: 50px; /* Adjust the size of the icon */
+  margin-right: 20px; /* Add some space between the icon and nav links */
 }
 
 .header-content h1 {
   font-size: 1.5em; /* Reduce font size */
   margin: 0;
+  margin-right: 20px; /* Add some space between the title and nav links */
+  color: #EEDBBF; /* Light text color for better contrast */
 }
 
 .sticky-header a {
   font-family: 'Poppins', sans-serif;
+  color: #EEDBBF; /* Light text color for better contrast */
 }
 
 .nav-links {
@@ -132,7 +147,7 @@
 }
 
 .nav-links a {
-  color: #EEDBBF; /* Your text color */
+  color: #EEDBBF; /* Light text color for better contrast */
   margin: 0 10px; /* Reduce margin */
   text-decoration: none;
   transition: color 0.3s;
@@ -161,9 +176,10 @@
 
 /* Home Section */
 .home {
-  padding: 100px 20px 50px;
+  padding: 150px 20px 50px; /* Add padding to the top to account for the header */
   background-color: #1E1E1E; /* Darker background for home section */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
+  color: #EEDBBF; /* Light text color for better contrast */
 }
 
 .home-content {
@@ -181,11 +197,17 @@
 
 .home-content h2 {
   font-family: 'Playfair Display', serif;
+  color: #EEDBBF; /* Light text color for better contrast */
+}
+
+.home-content p {
+  color: #EEDBBF; /* Light text color for better contrast */
+  font-family: 'Poppins', sans-serif;
 }
 
 /* About Me Section */
 .about-me {
-  padding: 20px;
+  padding: 70px 20px 20px; /* Add padding to the top to account for the header */
   background-color: #5E1d1d; /* Darker background for about section */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
   color: #EEDBBF; /* Your text color */
@@ -198,6 +220,7 @@
 }
 
 .about-card {
+  font-family: 'Poppins', sans-serif;
   background-color: #451616; /* Your card background color */
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
@@ -239,9 +262,18 @@
 
 /* Gallery Section */
 .gallery {
-  padding: 20px;
-  background-color: #451616; /* Red background for gallery section */
+  padding: 70px 20px 20px; /* Add padding to the top to account for the header */
+  background-color: #2C2C2C; /* Darker background for gallery section */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
+  color: #EEDBBF; /* Light text color for better contrast */
+}
+
+.gallery h2 {
+  color: #EEDBBF; /* Light text color for better contrast */
+  text-align: center; /* Center the title */
+  margin: 0 auto; /* Center the title */
+  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 .gallery-scroll {
@@ -283,15 +315,21 @@
 
 /* Contact Section */
 .contact {
-  background-color: #2C2C2C; /* Darker background for contact section */
+  padding: 50px 20px 20px; /* Add padding to the top to account for the header */
+  background-color: #451616; /* Red background for contact section */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
-  color: #EEDBBF; /* Your text color */
+  color: #EEDBBF; /* Light text color for better contrast */
   text-align: center;
-  padding: 50px 20px;
 }
 
 .contact h2 {
   font-family: 'Playfair Display', serif;
+  color: #EEDBBF; /* Light text color for better contrast */
+}
+
+.contact p {
+  color: #EEDBBF; /* Light text color for better contrast */
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact a {
