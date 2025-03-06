@@ -93,7 +93,7 @@
 <style scoped>
 /* General Styles */
 .body {
-  font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #121212; /* Dark background */
   color: #EEDBBF; /* Your text color */
   margin: 0;
@@ -288,6 +288,10 @@
   color: #EEDBBF; /* Your text color */
   text-align: center;
   padding: 50px 20px;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', serif;
 }
 
 .contact a {
