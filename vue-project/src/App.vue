@@ -106,8 +106,8 @@ onMounted(() => {
   background-color: #2C2C2C;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   color: #EEDBBF;
-  max-width: 100%; /* Set maximum width to 100% */
-  margin: 0 auto; /* Center the section */
+  max-width: 100%; 
+  margin: 0 auto;
 }
 
 .comments-section h2 {
@@ -126,11 +126,11 @@ onMounted(() => {
 
 /* Comment Form Container */
 .comment-form-container {
-  background-color: #5E1D1D; /* Red background for the form container */
+  background-color: #5E1D1D; 
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
-  margin-bottom: 20px; /* Add space between form and comments */
+  margin-bottom: 20px; 
 }
 
 /* Comment Form */
@@ -148,8 +148,8 @@ onMounted(() => {
 .comment-form button {
   width: 100%;
   padding: 8px;
-  background-color: #451616; /* Dark red button */
-  color: #EEDBBF; /* Light text color for contrast */
+  background-color: #451616; 
+  color: #EEDBBF;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
@@ -161,7 +161,7 @@ onMounted(() => {
 }
 
 .comment-form button:hover:enabled {
-  background-color: #7A2828; /* Slightly lighter red on hover */
+  background-color: #7A2828; 
 }
 
 /* Comments Box */
@@ -170,8 +170,8 @@ onMounted(() => {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
-  max-height: 400px; /* Set a maximum height */
-  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 400px; 
+  overflow-y: auto; 
 }
 
 .comments-box h3 {
@@ -185,13 +185,13 @@ onMounted(() => {
 .comments-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Add space between comments */
-  justify-content: center; /* Center the comments */
+  gap: 10px; 
+  justify-content: center; 
 }
 
 .comment-item {
-  flex: 1 1 calc(33.333% - 10px); /* Three comments per row */
-  max-width: calc(33.333% - 10px); /* Ensure comments don't exceed one-third of the container width */
+  flex: 1 1 calc(33.333% - 10px); 
+  max-width: calc(33.333% - 10px); 
   box-sizing: border-box;
 }
 

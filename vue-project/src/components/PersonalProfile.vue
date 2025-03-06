@@ -95,8 +95,8 @@
 /* General Styles */
 .body-content {
   font-family: 'Poppins', sans-serif;
-  background-color: #121212; /* Dark background */
-  color: #EEDBBF; /* Your text color */
+  background-color: #121212; 
+  color: #EEDBBF; 
   margin: 0;
   padding: 0;
   text-align: center;
@@ -107,15 +107,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Ensure full width */
-  background: #451616; /* Your header background color */
-  padding: 15px 20px; /* Increase padding for more height */
+  width: 100%; 
+  background: #451616; 
+  padding: 15px 20px; 
   display: flex;
-  justify-content: center; /* Center content horizontally */
+  justify-content: center; 
   align-items: center;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.45);
-  z-index: 1000; /* Ensure it stays on top */
-  color: #EEDBBF; /* Light text color for better contrast */
+  z-index: 1000; 
+  color: #EEDBBF; 
 }
 
 .header-content {
@@ -124,21 +124,21 @@
 }
 
 .header-icon {
-  width: 50px; /* Adjust the size of the icon */
-  height: 50px; /* Adjust the size of the icon */
-  margin-right: 20px; /* Add some space between the icon and nav links */
+  width: 50px;
+  height: 50px;
+  margin-right: 20px; 
 }
 
 .header-content h1 {
-  font-size: 1.5em; /* Reduce font size */
+  font-size: 1.5em; 
   margin: 0;
-  margin-right: 20px; /* Add some space between the title and nav links */
-  color: #EEDBBF; /* Light text color for better contrast */
+  margin-right: 20px;
+  color: #EEDBBF; 
 }
 
 .sticky-header a {
   font-family: 'Poppins', sans-serif;
-  color: #EEDBBF; /* Light text color for better contrast */
+  color: #EEDBBF;
 }
 
 .nav-links {
@@ -148,21 +148,21 @@
 }
 
 .nav-links a {
-  color: #EEDBBF; /* Light text color for better contrast */
-  margin: 0 10px; /* Reduce margin */
+  color: #EEDBBF; 
+  margin: 0 10px; 
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #AB3130; /* Your hover color */
+  color: #AB3130; 
 }
 
 @media (max-width: 768px) {
   .sticky-header {
     flex-direction: column;
     align-items: center;
-    padding: 10px 15px; /* Adjust padding for smaller devices */
+    padding: 10px 15px; 
   }
 
   .nav-links {
@@ -171,16 +171,16 @@
   }
 
   .nav-links a {
-    margin: 5px 0; /* Adjust margin for better spacing */
+    margin: 5px 0;
   }
 }
 
 /* Home Section */
 .home {
-  padding: 150px 20px 50px; /* Add padding to the top to account for the header */
-  background-color: #1E1E1E; /* Darker background for home section */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
-  color: #EEDBBF; /* Light text color for better contrast */
+  padding: 150px 20px 50px; 
+  background-color: #1E1E1E;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+  color: #EEDBBF;
 }
 
 .home-content {
@@ -198,20 +198,20 @@
 
 .home-content h2 {
   font-family: 'Playfair Display', serif;
-  color: #EEDBBF; /* Light text color for better contrast */
+  color: #EEDBBF; 
 }
 
 .home-content p {
-  color: #EEDBBF; /* Light text color for better contrast */
+  color: #EEDBBF; 
   font-family: 'Poppins', sans-serif;
 }
 
 /* About Me Section */
 .about-me {
-  padding: 70px 20px 20px; /* Add padding to the top to account for the header */
-  background-color: #5E1d1d; /* Darker background for about section */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
-  color: #EEDBBF; /* Your text color */
+  padding: 70px 20px 20px; 
+  background-color: #5E1d1d; 
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+  color: #EEDBBF; 
 }
 
 .about-section {
@@ -222,7 +222,7 @@
 
 .about-card {
   font-family: 'Poppins', sans-serif;
-  background-color: #451616; /* Your card background color */
+  background-color: #451616; 
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
   margin: 10px;
@@ -263,16 +263,16 @@
 
 /* Gallery Section */
 .gallery {
-  padding: 70px 20px 20px; /* Add padding to the top to account for the header */
-  background-color: #2C2C2C; /* Darker background for gallery section */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
-  color: #EEDBBF; /* Light text color for better contrast */
+  padding: 70px 20px 20px; 
+  background-color: #2C2C2C; 
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+  color: #EEDBBF; 
 }
 
 .gallery h2 {
-  color: #EEDBBF; /* Light text color for better contrast */
-  text-align: center; /* Center the title */
-  margin: 0 auto; /* Center the title */
+  color: #EEDBBF; 
+  text-align: center;
+  margin: 0 auto; 
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -290,8 +290,8 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .gallery-scroll {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
 
 .gallery-track {
@@ -316,37 +316,37 @@
 
 /* Contact Section */
 .contact {
-  padding: 50px 20px 20px; /* Add padding to the top to account for the header */
-  background-color: #451616; /* Red background for contact section */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inner shadow */
-  color: #EEDBBF; /* Light text color for better contrast */
+  padding: 50px 20px 20px; 
+  background-color: #451616;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+  color: #EEDBBF; 
   text-align: center;
 }
 
 .contact h2 {
   font-family: 'Playfair Display', serif;
-  color: #EEDBBF; /* Light text color for better contrast */
+  color: #EEDBBF; 
 }
 
 .contact p {
-  color: #EEDBBF; /* Light text color for better contrast */
+  color: #EEDBBF; 
   font-family: 'Poppins', sans-serif;
 }
 
 .contact a {
-  color: #AB3130; /* Your link color */
+  color: #AB3130;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .contact a:hover {
-  color: #EEDBBF; /* Your hover color */
+  color: #EEDBBF; 
 }
 
 .line {
-  width: 50px; /* Adjust width as needed */
-  height: 3px; /* Adjust thickness */
-  background-color: #EEDBBF; /* Your line color */
-  margin: 10px auto; /* Center the line */
+  width: 50px; 
+  height: 3px; 
+  background-color: #EEDBBF; 
+  margin: 10px auto; 
 }
 </style>
