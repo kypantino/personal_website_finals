@@ -19,7 +19,7 @@
         <img src="./pics/profile.svg" alt="Profile Photo" class="profile-photo">
         <h2>Hi, I'm Kyla Amor Pantino!</h2>
         <p>
-          I'm a 20-year-old third-year student at Asia Pacific College, 
+          I'm a 21-year-old third-year student at Asia Pacific College, 
           pursuing a Bachelor of Science in Information Technology with a 
           specialization in Mobile and Internet Technology. Currently, 
           I'm diving into the world of web development through my Website Programming class, 
