@@ -69,7 +69,7 @@
           <img src="./pics/kylapic4.jpg" alt="Gallery Pic 4">
           <img src="./pics/kylapic5.jpg" alt="Gallery Pic 5">
           <img src="./pics/kylapic6.JPG" alt="Gallery Pic 6">
-          <img src="./pics/kylapic7.jpg" alt="Gallery Pic 6">
+          <img src="./pics/kylapic7.jpg" alt="Gallery Pic 7">
           <img src="./pics/kylapic8.jpg" alt="Gallery Pic 8">
           <img src="./pics/kylapic9.JPG" alt="Gallery Pic 9">
           <img src="./pics/kylapic10.JPG" alt="Gallery Pic 10">
